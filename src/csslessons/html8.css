@@ -1,0 +1,56 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: olivedrab;
+    position: relative;
+    animation-name: anim2;
+    animation-duration: 4s;
+}
+
+/* @keyframes anim{
+    0%{
+        left: 0;
+        top: 0;
+        background-color: rgba(224, 134, 24, 1);
+    }
+    100%{
+        left: 500px;
+        top: 0;
+        background-color: greenyellow;
+    }
+    https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+
+    https://drafts.csswg.org/selectors/#structural-pseudos
+
+    https://www.frontendmentor.io/
+} */
+
+@keyframes anim2{
+    0%{
+        left:0;
+        top: 0;
+        background-color: aquamarine;
+    }
+    25%{
+        left: 500px;
+        top: 0;
+        background-color: greenyellow;
+    }
+    50%{
+        left: 500px;
+        top: 0px;
+        background-color: green;
+    }
+    75%{
+        left: 0px;
+        top: 500px;
+        background-color: brown;
+    }
+    100%{
+        left: 0px;
+        top: 0px;
+        background-color: blue;
+    }
+}
