@@ -15,21 +15,9 @@ body {
     width: 100vw;
 }
 
-header {
-  width: 150px;
-  align-content: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-header img {
-  float: left;
-}
-
 header h1 {
   float: center;
   color: aliceblue;
-  font-size: 20px;
 }
 
 nav {
