@@ -15,10 +15,6 @@ body {
     width: 100vw;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 header {
   width: 150px;
   align-content: center;
