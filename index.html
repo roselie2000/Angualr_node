@@ -6,60 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
     <link rel="stylesheet" href="index.css" />
-    <style>
-      body {
-        overflow-x: hidden;
-      }
-      header {
-        width: 150px;
-        align-content: center;
-        display: flex;
-        justify-content: space-between;
-      }
-
-      header img {
-        float: left;
-      }
-      header p {
-        float: center;
-        color: aliceblue;
-        font-size: 20px;
-      }
-
-      nav {
-        width: 100%;
-        height: 60px;
-        text-align: right;
-      }
-      nav ul {
-        list-style-type: none;
-        display: inline;
-      }
-
-      li {
-        display: inline;
-        padding: 10px;
-        font-size: 20px;
-      }
-
-      nav a {
-        color: beige;
-      }
-
-      nav a:hover {
-        color: bisque;
-        opacity: 1;
-        background-color: transparent;
-        border-bottom: 2px solid royalblue;
-      }
-
-      nav li a:active {
-        color: bisque;
-        opacity: 1;
-        background-color: transparent;
-        border-bottom: 2px solid royalblue;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -69,7 +15,7 @@
         height="35Px"
         width="35px"
       />
-      <p>My Website</p>
+      <h1>My Website</h1>
     </header>
 
     <nav>
@@ -81,59 +27,44 @@
       </ul>
     </nav>
 
-    <table>
-      <tr>
-        <td>
-          <div>
-            <a href="src/htmlles.html">
-              <img src="images/htmllogo.png" width="180px" height="180px" />
-              <h2>HTML lessons</h2>
-            </a>
-          </div>
-        </td>
+    <div class="grid-container">
+      <div>
+        <a href="src/htmlles.html">
+          <img src="images/htmllogo.png" width="180px" height="180px" />
+          <h2>HTML lessons</h2>
+        </a>
+      </div>
 
-        <td>
-          <div>
-            <a href="src/cssles.html">
-              <img src="images/css.png" width="180px" height="180px" />
-              <h2>CSS Lessons</h2>
-            </a>
-          </div>
-        </td>
+      <div>
+        <a href="src/cssles.html">
+          <img src="images/css.png" width="180px" height="180px" />
+          <h2>CSS Lessons</h2>
+        </a>
+      </div>
 
-        <td>
-          <div>
-            <a href="https://js-basic-cls.vercel.app/">
-              <img src="images/js.png" width="180px" height="180px" />
-              <h2>JS Lessons</h2>
-            </a>
-          </div>
-        </td>
-      </tr>
+      <div>
+        <a href="https://js-basic-cls.vercel.app/">
+          <img src="images/js.png" width="180px" height="180px" />
+          <h2>JS Lessons</h2>
+        </a>
+      </div>
 
-      <tr>
-        <td>
-          <div>
-            <a href="src/assignment.html">
-              <img src="images/Assignment-3.jpg" width="180px" height="180px" />
-              <h2>Assignments</h2>
-            </a>
-          </div>
-        </td>
+      <div>
+        <a href="src/assignment.html">
+          <img src="images/Assignment-3.jpg" width="180px" height="180px" />
+          <h2>Assignments</h2>
+        </a>
+      </div>
 
-        <td>
-          <div>
-            <a href="https://challenges-ivory-alpha.vercel.app/">
-              <img
-                src="images/favicon-32x32.png"
-                width="180px"
-                height="180px"
-              />
-              <h2>Challenges</h2>
-            </a>
-          </div>
-        </td>
-      </tr>
-    </table>
+      <div>
+        <a href="https://challenges-ivory-alpha.vercel.app/">
+          <img
+            src="images/favicon-32x32.png"
+            width="180px"
+            height="180px"
+          />
+          <h2>Challenges</h2>
+        </a>
+      </div>
   </body>
 </html>
